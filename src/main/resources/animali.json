@@ -1,0 +1,39 @@
+{
+  "animali": [
+    {
+      "id": 1,
+      "nome": "Leone",
+      "specie": "Panthera leo",
+      "habitat": "Savana",
+      "dieta": "Carnivoro"
+    },
+    {
+      "id": 2,
+      "nome": "Pinguino Imperatore",
+      "specie": "Aptenodytes forsteri",
+      "habitat": "Antartide",
+      "dieta": "Piscivoro"
+    },
+    {
+      "id": 3,
+      "nome": "Elefante Africano",
+      "specie": "Loxodonta africana",
+      "habitat": "Foresta e Savana",
+      "dieta": "Erbivoro"
+    },
+    {
+      "id": 4,
+      "nome": "Squalo Bianco",
+      "specie": "Carcharodon carcharias",
+      "habitat": "Oceano",
+      "dieta": "Carnivoro"
+    },
+    {
+      "id": 5,
+      "nome": "Panda Minore",
+      "specie": "Ailurus fulgens",
+      "habitat": "Montagne Himalaya",
+      "dieta": "Onnivoro"
+    }
+  ]
+}

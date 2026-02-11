@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schema Animali",
+  "description": "Un elenco di animali con le loro caratteristiche principali",
+  "type": "object",
+  "properties": {
+    "animali": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "id", "nome", "specie", "habitat", "dieta" ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Identificativo univoco dell'animale"
+          },
+          "nome": {
+            "type": "string",
+            "description": "Nome comune dell'animale"
+          },
+          "specie": {
+            "type": "string",
+            "description": "Nome scientifico in latino"
+          },
+          "habitat": {
+            "type": "string",
+            "description": "L'ambiente naturale in cui vive"
+          },
+          "dieta": {
+            "type": "string",
+            "description": "Tipo di alimentazione (es. Carnivoro, Erbivoro)"
+          }
+        }
+      }
+    }
+  },
+  "required": [ "animali" ]
+}
